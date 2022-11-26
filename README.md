@@ -20,6 +20,15 @@ Primeiramente é necessário fazer a configuração do seu banco de dados, no ar
 </p>
 
 <p>
-Após isso teremos que criar o banco de dados, para isso vamos instalar as dependências necessárias. Utilizando npm ou yarn, com npm será da seguinte forma npm i
+Após isso teremos que criar o banco de dados, para isso vamos instalar as dependências necessárias. Utilizando npm ou yarn, com npm será da seguinte forma: npm i, mas para garantir vamos instalar o essencial: npm install sequelize sequelize-cli yum cors express <br>
+<br>
+Agora vamos criar o banco de dados e as tabelas: <br>
+_  npx sequelize db:create <br>
+_  npx sequelize db:migrate <br> 
+<br>
+Com isso seu banco de dados está pronto
+<br>
+Após instalado as dependências, rode o comando node src/server.js. <br>
+Lembresse de estar com o serviço do banco de dados MySql rodando. <br>
 </p>
 </div>
